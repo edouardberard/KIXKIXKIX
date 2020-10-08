@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'NewFontGX';
+  src: url('KIXKIXKIX—VARGX.ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+@font-face {
+  font-family: 'MonumentGrotesk';
+  src: url('MonumentGrotesk-Regular.otf') format("opentype");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+   
+}
+canvas {
+  display: block;
+}
+
+a {
+  color:#000;
+  text-decoration: none;
+}
+
+h1 {
+color : #000;
+font-size: 40px;
+font-family: 'MonumentGrotesk';
+margin: 0;
+}
+
+.title {
+margin: 10px;
+display:flex;
+justify-content: space-between;
+}
+
+.about {
+  text-align: center;
+  color : #000;
+  font-size:18px;
+  font-family: 'MonumentGrotesk';
+}
+
+p.abt{
+  text-align: left;
+  color : #000;
+  font-size:18px;
+  font-family: 'MonumentGrotesk';
+}
+
+
+p {
+  color : #000;
+  font-size: 140px;
+  font-family: 'NewFontGX';
+  text-align: center;
+  position:relative;
+  padding: 10px;
+  margin:0;
+  line-height: 1;
+}
