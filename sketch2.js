@@ -56,7 +56,7 @@ function setup() {
   //video.style('bottom','0');
   //video.style('left','0');
   //description text
-  p3 = createP('Having a hard time to choose a font? Hit “ready” do your best pose and generate your unique font.');
+  p3 = createP('Having a hard time finding a experimental font? Hit “ready”, take a few step back, do your best pose and generate your unique font.');
   p3.style('color','black');
   p3.style('font-size', '18px');
   p3.style('font-family', 'MonumentGrotesk');
@@ -77,9 +77,9 @@ function setup() {
   }
   brain = ml5.neuralNetwork(options);
   const modelInfo = {
-    model: 'model/model.json',
-    metadata: 'model/model_meta.json',
-    weights: 'model/model.weights.bin',
+    model: 'model3/model.json',
+    metadata: 'model3/model_meta.json',
+    weights: 'model3/model.weights.bin',
   };
   brain.load(modelInfo, brainLoaded);
 }

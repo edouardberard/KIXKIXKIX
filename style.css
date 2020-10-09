@@ -46,10 +46,14 @@ justify-content: space-between;
 p.abt{
   text-align: left;
   color : #000;
-  font-size:18px;
+  font-size:20px;
   font-family: 'MonumentGrotesk';
+  padding-top: 5%;
 }
 
+a:hover {
+  color:#B0FE76;
+}
 
 p {
   color : #000;
